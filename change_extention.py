@@ -18,5 +18,5 @@ if __name__== "__main__":
 			os.remove(path+directory+"/"+name)
 			# save as JPEG
 			name=name[0:(len(name)-5)]
-			cv2.imwrite(path+directory+"/"+name+ ".jpg", img)
+			cv2.imwrite(path+directory+"/"+name+ ".jpeg", img)
 print("end")
