@@ -17,7 +17,7 @@ import numpy as np
 # colors for the bboxes
 COLORS = ['red', 'blue', 'yellow', 'pink', 'cyan', 'green', 'black']
 SIZE=1054,682
-datatype = ".jpeg"
+datatype = ".jpg"
 class LabelTool():
 	def __init__(self, master):
 		# set up the main frame
